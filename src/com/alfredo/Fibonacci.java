@@ -1,10 +1,6 @@
 package com.alfredo;
 
-import static java.util.Arrays.*;
-
-import java.util.Arrays;
-
-public class Fibo {
+public class Fibonacci {
   public static long fibonacci(long n) {
     if(n==0 ){
       return 0;
