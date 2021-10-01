@@ -11,6 +11,7 @@ public class Greedily {
 
   public static int getMaxProfit(int[] stockPrices) {
 
+    // https://www.interviewcake.com/question/java/stock-price
     // calculate the max profit
     if (stockPrices.length < 2) {
       throw new IllegalArgumentException("Getting a profit requires at least 2 prices");
